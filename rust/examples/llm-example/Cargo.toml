@@ -1,5 +1,5 @@
 [package]
-name = "llm-component-pytorch"
+name = "llm-component-openvino"
 version = "0.1.0"
 edition = "2021"
 authors = ["The Wasmtime Project Developers"]
@@ -22,7 +22,7 @@ strip = true
 lto = true
 
 [package.metadata.component]
-package = "component:llm-component-pytorch"
+package = "component:llm-component-openvino"
 
 [package.metadata.component.target.dependencies]
 
