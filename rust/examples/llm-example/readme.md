@@ -13,6 +13,7 @@ export LIBTORCH=/path/to/libtorch
 export LIBTORCH_INCLUDE=/path/to/libtorch/include
 # LIBTORCH_LIB must contain the `lib` directory.
 export LIBTORCH_LIB=/path/to/libtorch/lib
+export LD_LIBRARY_PATH=/path/to/libtorch/lib:$LD_LIBRARY_PATH
 ```
 
 You can download the [C++ PyTorch library (LibTorch) version v2.4.0 here](https://pytorch.org/get-started/locally/).

@@ -30,6 +30,7 @@ To run this example:
     - Requires the C++ PyTorch library (libtorch) in version *v2.4.0* to be available on
 your system. 
     - `export LIBTORCH=/path/to/libtorch`
+    - `export LD_LIBRARY_PATH=/path/to/libtorch/lib:$LD_LIBRARY_PATH`
 2. Build Wasmtime  with `wasmtime-wasi-nn/pytorch` feature.
 3. Navigate to this example directory `crates/wasi-nn/examples/classification-example-pytorch`.
 4. Download `squeezenet1_1.pt` model 
