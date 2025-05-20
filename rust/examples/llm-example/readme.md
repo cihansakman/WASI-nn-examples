@@ -38,5 +38,4 @@ wget https://huggingface.co/vuiseng9/ov-gpt2-fp32-no-cache/resolve/main/openvino
    ```bash
    /path/to/wasmtime -S nn --dir fixture/::fixture target/wasm32-wasip1/debug/llm-component-openvino.wasm
    ```
-
-3. The output may currently appear meaningless, as this example lacks advanced tokenization to fully utilize the model's capabilities. Further refinement is needed for effective model interaction.
+3. Give the prompt in the fixture/prompt file.
